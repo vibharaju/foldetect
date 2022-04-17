@@ -29,27 +29,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2I-Ps-amQ">
-                                <rect key="frame" x="40" y="312" width="336" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.9882352941176471" green="0.81960784313725488" blue="0.77647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="View Past Records">
-                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="27"/>
-                                    <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="123613689-vector-microscope-icon-isolated-on-white-background-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Vae-Ce-hV8">
-                                <rect key="frame" x="180" y="512" width="214" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDP-sx-QUi">
-                                <rect key="frame" x="39" y="219" width="336" height="51"/>
+                                <rect key="frame" x="28" y="221" width="336" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.98823529409999999" green="0.81960784310000001" blue="0.77647058820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="New Malaria Lab Test">
-                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="27"/>
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -57,6 +43,20 @@
                                     <segue destination="3jS-fj-u3n" kind="presentation" identifier="pictureSegue" id="I43-dI-nCb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2I-Ps-amQ">
+                                <rect key="frame" x="28" y="314" width="336" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.9882352941176471" green="0.81960784313725488" blue="0.77647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="View Past Records">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="123613689-vector-microscope-icon-isolated-on-white-background-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Vae-Ce-hV8">
+                                <rect key="frame" x="175" y="430" width="219" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9hy-QV-VSX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -84,12 +84,12 @@
                                 <color key="tintColor" red="0.91372549020000005" green="1" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttm-ZN-ijh">
-                                <rect key="frame" x="29" y="224" width="356" height="51"/>
+                                <rect key="frame" x="33" y="187" width="321" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.98823529409999999" green="0.81960784310000001" blue="0.77647058820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Take New Image">
-                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="27"/>
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -98,12 +98,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9W-Bo-aGU">
-                                <rect key="frame" x="29" y="316" width="356" height="49"/>
+                                <rect key="frame" x="23" y="271" width="342" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.98823529409999999" green="0.81960784310000001" blue="0.77647058820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Choose Image from Gallery">
-                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="27"/>
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -111,6 +111,10 @@
                                     <action selector="galleryTapped:" destination="3jS-fj-u3n" eventType="touchUpInside" id="9iG-Qg-nFk"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dO4-Bd-Azw">
+                                <rect key="frame" x="61" y="348" width="267" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Td-Sc-jqP">
                                 <rect key="frame" x="186" y="724" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -119,17 +123,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaG-hF-9kS">
-                                <rect key="frame" x="115" y="724" width="184" height="39"/>
+                                <rect key="frame" x="101" y="595" width="184" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98823529409999999" green="0.81960784310000001" blue="0.77647058820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dO4-Bd-Azw">
-                                <rect key="frame" x="59" y="408" width="297" height="241"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fPV-fv-ZCV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -139,44 +139,12 @@
                     <connections>
                         <outlet property="imageView" destination="dO4-Bd-Azw" id="H7R-Lw-x9J"/>
                         <outlet property="textView" destination="YaG-hF-9kS" id="EG6-Vu-lSo"/>
-                        <segue destination="MQr-08-i8x" kind="presentation" id="CRQ-Sa-4iB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UXD-U4-qUm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="hE8-PH-h3q" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2005.7971014492755" y="-180.13392857142856"/>
-        </scene>
-        <!--Fifth View Controller-->
-        <scene sceneID="Rar-CI-5zk">
-            <objects>
-                <viewController id="MQr-08-i8x" customClass="FifthViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="aS5-2K-NLC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eMe-bY-N9q">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="162"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.72549019609999998" green="0.91764705879999997" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.91372549020000005" green="1" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Malaria Info" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UXN-Rr-mFw">
-                                <rect key="frame" x="20" y="261" width="374" height="570"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="a0x-v5-Umm"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dah-s4-23n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2728.985507246377" y="-180.13392857142856"/>
+            <point key="canvasLocation" x="2040.5797101449277" y="-180.13392857142856"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="E3U-j7-iCm">
@@ -186,15 +154,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6bX-6M-D7S">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="329"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nQg-pS-kYn">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="329"/>
-                                        <color key="backgroundColor" red="0.72549019607843135" green="0.91764705882352937" blue="0.89411764705882346" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNn-dr-C1Z">
                                 <rect key="frame" x="40" y="395" width="167" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -227,10 +186,6 @@
                                     <segue destination="hVa-Lk-STr" kind="presentation" identifier="signInSegue" id="Arg-bc-mTb"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="u7D-tB-MmT">
-                                <rect key="frame" x="-159" y="163" width="553" height="378"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVc-qW-188">
                                 <rect key="frame" x="40" y="589" width="137" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -245,6 +200,10 @@
                                     <segue destination="1Dk-hN-nKT" kind="presentation" identifier="loginSegue" id="gll-lT-e1Q"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="edN-Aj-6Ya">
+                                <rect key="frame" x="-35" y="-1" width="514" height="397"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="D1Z-vu-jqO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -252,11 +211,13 @@
                     <connections>
                         <outlet property="loginButton" destination="dVc-qW-188" id="g2n-h5-Bbe"/>
                         <outlet property="signInButton" destination="W56-wn-bG7" id="y6e-F6-te3"/>
+                        <outlet property="textField" destination="9JS-7Z-eeg" id="bSP-l5-6St"/>
+                        <outlet property="textField2" destination="HNY-XG-Mwc" id="3Fb-Ox-0V2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GnH-WX-Fhf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-201" y="-180"/>
+            <point key="canvasLocation" x="-201.44927536231884" y="-180.13392857142856"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="1hk-f0-tVW">
@@ -266,15 +227,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="edu-mA-ezA">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="329"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cUO-qW-fkV">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="329"/>
-                                        <color key="backgroundColor" red="0.72549019609999998" green="0.91764705879999997" blue="0.89411764709999997" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign In" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Amx-1v-PuP">
                                 <rect key="frame" x="40" y="395" width="167" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -320,8 +272,8 @@
                                     <segue destination="1Dk-hN-nKT" kind="presentation" identifier="homePageSegue" id="V7A-ue-aQt"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="mO8-Ko-YAr">
-                                <rect key="frame" x="-153" y="166" width="553" height="378"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="uBa-mL-Y0p">
+                                <rect key="frame" x="-50" y="-13" width="539" height="410"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -329,12 +281,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="password" destination="zj9-2d-rfq" id="Cy0-F5-bbr"/>
                         <outlet property="signInButton" destination="azK-UV-gud" id="GvA-HJ-RPt"/>
+                        <outlet property="signUpButton" destination="azK-UV-gud" id="qQg-5E-lEV"/>
+                        <outlet property="textField" destination="OnT-y0-lYM" id="tyI-Un-xbf"/>
+                        <outlet property="textField2" destination="NJO-va-oVR" id="CIH-ql-JHR"/>
+                        <outlet property="textField3" destination="zj9-2d-rfq" id="Y8B-9h-p28"/>
+                        <outlet property="textField4" destination="vLt-oV-sCM" id="0ae-nv-TrE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6RN-4Q-koC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="572" y="-180"/>
+            <point key="canvasLocation" x="571.01449275362324" y="-180.13392857142856"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -342,10 +300,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="123613689-vector-microscope-icon-isolated-on-white-background-removebg-preview" width="500" height="500"/>
-        <image name="logo" width="500" height="500"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="Image" width="255" height="222"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -2,8 +2,9 @@
 //  ThirdViewController.swift
 //  MalariaApp
 //
-//  Created by Vibha Raju on 4/16/22.
+//  Created by Vibha Raju and Srihita Ramini on 4/16/22.
 //
+//  Sources: Stack Overflow, Towards Data Science 
 
 
 import Foundation
@@ -21,3 +22,5 @@ class ThirdViewController: UIViewController {
         self.performSegue(withIdentifier: "pictureSegue", sender: self)
     }
 }
+
+

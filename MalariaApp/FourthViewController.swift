@@ -2,8 +2,9 @@
 //  FourthViewController.swift
 //  MalariaApp
 //
-//  Created by Vibha Raju on 4/16/22.
+//  Created by Vibha Raju and Srihita Ramini on 4/16/22.
 //
+//  Sources: Stack Overflow, Towards Data Science 
 
 import UIKit
 import CoreML
@@ -74,5 +75,9 @@ class FourthViewController: UIViewController, UIImagePickerControllerDelegate, U
         imagePicker.allowsEditing = true
         imagePicker.delegate = self
         present(imagePicker, animated: true)
+    }
+    
+    @IBAction func returnToHome(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "returnToHomeSegue", sender: self)
     }
 }
