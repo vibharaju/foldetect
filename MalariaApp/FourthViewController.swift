@@ -19,9 +19,9 @@ class FourthViewController: UIViewController, UIImagePickerControllerDelegate, U
     override func viewDidLoad() {
         super.viewDidLoad()
         /* 4. Handle image picker */
-        //imagePicker.delegate = self
-        //imagePicker.sourceType = .photoLibrary
-        //imagePicker.allowsEditing = false
+//        imagePicker.delegate = self
+//        imagePicker.sourceType = .photoLibrary
+//        imagePicker.allowsEditing = false
         self.textView.text = ""
     }
     
@@ -62,9 +62,9 @@ class FourthViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     
     @IBAction func galleryTapped(_ sender: UIButton) {
-        imagePicker.delegate = self
         imagePicker.sourceType = .photoLibrary
         imagePicker.allowsEditing = false
+        imagePicker.delegate = self
         present(imagePicker, animated: true, completion: nil)
     }
     
