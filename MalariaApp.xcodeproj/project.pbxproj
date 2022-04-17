@@ -11,12 +11,18 @@
 		B1B58FE128089821008D996C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B58FE028089821008D996C /* SceneDelegate.swift */; };
 		B1B58FE328089821008D996C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B58FE228089821008D996C /* ViewController.swift */; };
 		B1B58FE628089821008D996C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B58FE428089821008D996C /* Main.storyboard */; };
-		B1B58FE928089821008D996C /* MalariaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1B58FE728089821008D996C /* MalariaApp.xcdatamodeld */; };
 		B1B58FEB28089823008D996C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B58FEA28089823008D996C /* Assets.xcassets */; };
 		B1B58FEE28089823008D996C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B58FEC28089823008D996C /* LaunchScreen.storyboard */; };
 		B1B58FF928089823008D996C /* MalariaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B58FF828089823008D996C /* MalariaAppTests.swift */; };
 		B1B5900328089823008D996C /* MalariaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5900228089823008D996C /* MalariaAppUITests.swift */; };
 		B1B5900528089823008D996C /* MalariaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5900428089823008D996C /* MalariaAppUITestsLaunchTests.swift */; };
+		B1B5901C280B5B2E008D996C /* MalariaClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B1B5901B280B5B2E008D996C /* MalariaClassifier.mlmodel */; };
+		B1B5901E280B8E6D008D996C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5901D280B8E6D008D996C /* SecondViewController.swift */; };
+		B1B59020280B932E008D996C /* app_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B5901F280B932E008D996C /* app_logo.png */; };
+		B1B59022280B95CA008D996C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B59021280B95CA008D996C /* ThirdViewController.swift */; };
+		B1B59024280BAEB0008D996C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B59023280BAEB0008D996C /* FourthViewController.swift */; };
+		B1B59026280BD304008D996C /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B59025280BD304008D996C /* FifthViewController.swift */; };
+		B1B59028280BD5D6008D996C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B59027280BD5D6008D996C /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +48,6 @@
 		B1B58FE028089821008D996C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B1B58FE228089821008D996C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1B58FE528089821008D996C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B1B58FE828089821008D996C /* MalariaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MalariaApp.xcdatamodel; sourceTree = "<group>"; };
 		B1B58FEA28089823008D996C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1B58FED28089823008D996C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1B58FEF28089823008D996C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		B1B58FFE28089823008D996C /* MalariaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MalariaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B5900228089823008D996C /* MalariaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalariaAppUITests.swift; sourceTree = "<group>"; };
 		B1B5900428089823008D996C /* MalariaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalariaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1B5901B280B5B2E008D996C /* MalariaClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MalariaClassifier.mlmodel; sourceTree = "<group>"; };
+		B1B5901D280B8E6D008D996C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B1B5901F280B932E008D996C /* app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_logo.png; path = ../../app_logo.png; sourceTree = "<group>"; };
+		B1B59021280B95CA008D996C /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B1B59023280BAEB0008D996C /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		B1B59025280BD304008D996C /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		B1B59027280BD5D6008D996C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +116,17 @@
 				B1B58FDE28089821008D996C /* AppDelegate.swift */,
 				B1B58FE028089821008D996C /* SceneDelegate.swift */,
 				B1B58FE228089821008D996C /* ViewController.swift */,
+				B1B59021280B95CA008D996C /* ThirdViewController.swift */,
 				B1B58FE428089821008D996C /* Main.storyboard */,
+				B1B59027280BD5D6008D996C /* FirstViewController.swift */,
+				B1B59023280BAEB0008D996C /* FourthViewController.swift */,
+				B1B59025280BD304008D996C /* FifthViewController.swift */,
+				B1B5901F280B932E008D996C /* app_logo.png */,
 				B1B58FEA28089823008D996C /* Assets.xcassets */,
+				B1B5901D280B8E6D008D996C /* SecondViewController.swift */,
 				B1B58FEC28089823008D996C /* LaunchScreen.storyboard */,
 				B1B58FEF28089823008D996C /* Info.plist */,
-				B1B58FE728089821008D996C /* MalariaApp.xcdatamodeld */,
+				B1B5901B280B5B2E008D996C /* MalariaClassifier.mlmodel */,
 			);
 			path = MalariaApp;
 			sourceTree = "<group>";
@@ -234,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B59020280B932E008D996C /* app_logo.png in Resources */,
 				B1B58FEE28089823008D996C /* LaunchScreen.storyboard in Resources */,
 				B1B58FEB28089823008D996C /* Assets.xcassets in Resources */,
 				B1B58FE628089821008D996C /* Main.storyboard in Resources */,
@@ -261,10 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B59028280BD5D6008D996C /* FirstViewController.swift in Sources */,
 				B1B58FE328089821008D996C /* ViewController.swift in Sources */,
+				B1B5901C280B5B2E008D996C /* MalariaClassifier.mlmodel in Sources */,
 				B1B58FDF28089821008D996C /* AppDelegate.swift in Sources */,
+				B1B59024280BAEB0008D996C /* FourthViewController.swift in Sources */,
+				B1B59026280BD304008D996C /* FifthViewController.swift in Sources */,
+				B1B5901E280B8E6D008D996C /* SecondViewController.swift in Sources */,
+				B1B59022280B95CA008D996C /* ThirdViewController.swift in Sources */,
 				B1B58FE128089821008D996C /* SceneDelegate.swift in Sources */,
-				B1B58FE928089821008D996C /* MalariaApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,11 +465,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N469Z86Q4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MalariaApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MalariaApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,11 +495,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N469Z86Q4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MalariaApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MalariaApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -600,19 +630,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B1B58FE728089821008D996C /* MalariaApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B1B58FE828089821008D996C /* MalariaApp.xcdatamodel */,
-			);
-			currentVersion = B1B58FE828089821008D996C /* MalariaApp.xcdatamodel */;
-			path = MalariaApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B1B58FD328089821008D996C /* Project object */;
 }
